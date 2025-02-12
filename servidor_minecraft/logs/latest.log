@@ -1,110 +1,45 @@
-[12Feb2025 14:01:26.613] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[12Feb2025 14:01:26.618] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[12Feb2025 14:01:27.779] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Feb2025 14:01:27.791] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[12Feb2025 14:01:27.861] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[12Feb2025 14:01:27.910] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[12Feb2025 14:01:27.972] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor1/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23185%23188!/ Service=ModLauncher Env=SERVER
-[12Feb2025 14:01:28.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[12Feb2025 14:01:28.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Feb2025 14:01:28.532] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Feb2025 14:01:28.534] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Feb2025 14:01:29.345] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[12Feb2025 14:01:29.347] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 71 dependencies adding them to mods collection
-[12Feb2025 14:01:30.137] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 4 candidates to load
-[12Feb2025 14:01:36.867] [ForkJoinPool-4-worker-2/INFO] [org.sinytra.adapter.patch.transformer.dynamic.DynamicAnonymousShadowFieldTypePatch/]: Renaming anonymous class field chronosacaria/mcdw/mixin/reach/ServerPlayNetworkPlayerEntityInteractionHandlerMixin.f_143670_ to val$entity
-[12Feb2025 14:01:42.687] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[12Feb2025 14:01:45.516] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Feb2025 14:01:46.072] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Feb2025 14:01:46.293] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 14:01:46.403] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 198 options available, 0 override(s) found
-[12Feb2025 14:01:46.470] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 14:01:46.493] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 14:01:46.749] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for medievalorigins.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 14:01:46.779] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 14:01:48.076] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[12Feb2025 14:01:48.077] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[12Feb2025 14:01:48.077] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics
-[12Feb2025 14:01:48.091] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[12Feb2025 14:01:48.091] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[12Feb2025 14:01:48.092] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[12Feb2025 14:01:48.093] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[12Feb2025 14:01:48.094] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[12Feb2025 14:01:48.094] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[12Feb2025 14:01:49.169] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[12Feb2025 14:01:49.169] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod deeperdarker
-[12Feb2025 14:01:51.421] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[12Feb2025 14:01:58.295] [main/INFO] [mixin/]: mixins.vminus.json:items.ItemStackAccessor from mod vminus->@Invoker[METHOD_PROXY]::getExpandBlockState(Ljava/lang/String;)Ljava/util/Collection; should be static as its target is
-[12Feb2025 14:02:02.976] [main/INFO] [mixin/]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
-[12Feb2025 14:02:03.958] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[12Feb2025 14:03:33.845] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Feb2025 14:03:33.849] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[12Feb2025 14:03:34.897] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Feb2025 14:03:34.912] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[12Feb2025 14:03:34.944] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[12Feb2025 14:03:34.965] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[12Feb2025 14:03:35.009] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor1/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23185%23188!/ Service=ModLauncher Env=SERVER
+[12Feb2025 14:03:35.644] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Feb2025 14:03:35.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Feb2025 14:03:35.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Feb2025 14:03:35.653] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Feb2025 14:03:36.464] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Feb2025 14:03:36.466] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 71 dependencies adding them to mods collection
+[12Feb2025 14:03:37.216] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 4 candidates to load
+[12Feb2025 14:03:39.411] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[12Feb2025 14:03:42.438] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Feb2025 14:03:43.222] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Feb2025 14:03:43.463] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Feb2025 14:03:43.570] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 198 options available, 0 override(s) found
+[12Feb2025 14:03:43.644] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Feb2025 14:03:43.692] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Feb2025 14:03:44.173] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for medievalorigins.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Feb2025 14:03:44.210] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Feb2025 14:03:46.229] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[12Feb2025 14:03:46.229] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[12Feb2025 14:03:46.230] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics
+[12Feb2025 14:03:46.250] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[12Feb2025 14:03:46.251] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[12Feb2025 14:03:46.252] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[12Feb2025 14:03:46.253] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[12Feb2025 14:03:46.255] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[12Feb2025 14:03:46.256] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[12Feb2025 14:03:47.404] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[12Feb2025 14:03:47.404] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod deeperdarker
+[12Feb2025 14:03:49.314] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[12Feb2025 14:03:56.785] [main/INFO] [mixin/]: mixins.vminus.json:items.ItemStackAccessor from mod vminus->@Invoker[METHOD_PROXY]::getExpandBlockState(Ljava/lang/String;)Ljava/util/Collection; should be static as its target is
+[12Feb2025 14:04:01.629] [main/INFO] [mixin/]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
+[12Feb2025 14:04:02.226] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[12Feb2025 14:02:05.128] [main/INFO] [chronosacaria.mcda.Mcda/]: Registering Blocks for mcda
-[12Feb2025 14:02:06.023] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/naturalist.toml is not correct. Correcting
-[12Feb2025 14:02:06.025] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Feb2025 14:02:06.025] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.forestRabbitSpawnWeight was corrected from null to its default, 6. 
-[12Feb2025 14:02:06.026] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.forestFoxSpawnWeight was corrected from null to its default, 6. 
-[12Feb2025 14:02:06.026] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.snailSpawnWeight was corrected from null to its default, 5. 
-[12Feb2025 14:02:06.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.snakeSpawnWeight was corrected from null to its default, 4. 
-[12Feb2025 14:02:06.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.coralSnakeSpawnWeight was corrected from null to its default, 4. 
-[12Feb2025 14:02:06.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.rattlesnakeSpawnWeight was corrected from null to its default, 4. 
-[12Feb2025 14:02:06.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.fireflySpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.029] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.bluejaySpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.029] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.canarySpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.cardinalSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.robinSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.finchSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.sparrowSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.butterflySpawnWeight was corrected from null to its default, 20. 
-[12Feb2025 14:02:06.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.duckSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.bearSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.deerSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.rhinoSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.lionSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.elephantSpawnWeight was corrected from null to its default, 10. 
-[12Feb2025 14:02:06.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.zebraSpawnWeight was corrected from null to its default, 10. 
-[12Feb2025 14:02:06.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.giraffeSpawnWeight was corrected from null to its default, 10. 
-[12Feb2025 14:02:06.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.hippoSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.vultureSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.044] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.boarSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.044] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.dragonflySpawnWeight was corrected from null to its default, 1. 
-[12Feb2025 14:02:06.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.catfishSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.alligatorSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.bassSpawnWeight was corrected from null to its default, 8. 
-[12Feb2025 14:02:06.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.lizardSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawn Weights.tortoiseSpawnWeight was corrected from null to its default, 15. 
-[12Feb2025 14:02:06.392] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/tetra.toml is not correct. Correcting
-[12Feb2025 14:02:06.398] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Feb2025 14:02:06.399] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.bow was corrected from null to its default, true. 
-[12Feb2025 14:02:06.400] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.single_headed was corrected from null to its default, true. 
-[12Feb2025 14:02:06.401] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.shield was corrected from null to its default, true. 
-[12Feb2025 14:02:06.403] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.glint was corrected from null to its default, true. 
-[12Feb2025 14:02:06.405] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.development was corrected from null to its default, false. 
-[12Feb2025 14:02:06.406] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.toolbelt_curio_only was corrected from null to its default, false. 
-[12Feb2025 14:02:06.407] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.experimental_features was corrected from null to its default, []. 
-[12Feb2025 14:02:06.407] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.disabled_features was corrected from null to its default, []. 
-[12Feb2025 14:02:06.408] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.magic_cap_multiplier was corrected from null to its default, 1.0. 
-[12Feb2025 14:02:06.410] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Feb2025 14:02:06.410] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.enabled was corrected from null to its default, true. 
-[12Feb2025 14:02:06.410] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_base was corrected from null to its default, 270. 
-[12Feb2025 14:02:06.410] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_level_multiplier was corrected from null to its default, 3.0. 
-[12Feb2025 14:02:06.411] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.settle_durability_multiplier was corrected from null to its default, 0.5. 
-[12Feb2025 14:02:06.412] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_sword_base was corrected from null to its default, 110. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_sword_integrity_multiplier was corrected from null to its default, 65. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_double_base was corrected from null to its default, 140. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_double_integrity_multiplier was corrected from null to its default, 75. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_bow_base was corrected from null to its default, 48. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_bow_integrity_multiplier was corrected from null to its default, 32. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_shield_base was corrected from null to its default, 48. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_shield_integrity_multiplier was corrected from null to its default, 32. 
-[12Feb2025 14:02:06.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_crossbow_base was corrected from null to its default, 48. 
-[12Feb2025 14:02:06.414] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_crossbow_integrity_multiplier was corrected from null to its default, 32. 
-[12Feb2025 14:02:06.414] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_single_headed_base was corrected from null to its default, 120. 
-[12Feb2025 14:02:06.426] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key module_progression.hone_single_headed_integrity_multiplier was corrected from null to its default, 60. 
-[12Feb2025 14:02:06.430] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Feb2025 14:02:06.430] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental.extractor was corrected from null to its default, true. 
-[12Feb2025 14:02:06.430] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experimental.crossbow was corrected from null to its default, true. 
-[12Feb2025 14:02:06.621] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/KeyMapping for invalid dist DEDICATED_SERVER
-[12Feb2025 14:02:06.627] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: clickthrough, class neoforge.cc.cassian.clickthrough.forge.ClickthroughForge
+[12Feb2025 14:04:03.806] [main/INFO] [chronosacaria.mcda.Mcda/]: Registering Blocks for mcda
+[12Feb2025 14:04:05.033] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/KeyMapping for invalid dist DEDICATED_SERVER
+[12Feb2025 14:04:05.034] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: clickthrough, class neoforge.cc.cassian.clickthrough.forge.ClickthroughForge
 java.lang.ExceptionInInitializerError: null
 	at neoforge.cc.cassian.clickthrough.forge.ClickthroughForge.<init>(ClickthroughForge.java:14) ~[clickthrough-plus-3.2+1.20.jar%23205!/:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
@@ -134,112 +69,48 @@ Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/cli
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
 	at neoforge.cc.cassian.clickthrough.ClickThrough.<clinit>(ClickThrough.java:39) ~[clickthrough-plus-3.2+1.20.jar%23205!/:?]
 	... 15 more
-[12Feb2025 14:02:07.085] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
-[12Feb2025 14:02:07.353] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/jeresources.toml is not correct. Correcting
-[12Feb2025 14:02:07.354] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to its default, 4. 
-[12Feb2025 14:02:07.355] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to its default, 4. 
-[12Feb2025 14:02:07.356] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to its default, true. 
-[12Feb2025 14:02:07.357] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to its default, false. 
-[12Feb2025 14:02:07.358] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to its default, [flimflam, soulBound]. 
-[12Feb2025 14:02:07.358] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to its default, []. 
-[12Feb2025 14:02:07.359] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to its default, [-11]. 
-[12Feb2025 14:02:07.364] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableLootManagerReloading was corrected from null to its default, false. 
-[12Feb2025 14:02:07.512] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
-[12Feb2025 14:02:07.650] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
-[12Feb2025 14:02:07.675] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.91.
-[12Feb2025 14:02:07.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Feb2025 14:02:08.490] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
-[12Feb2025 14:02:08.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
-[12Feb2025 14:02:08.863] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[12Feb2025 14:02:08.871] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[12Feb2025 14:02:08.872] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[12Feb2025 14:02:08.878] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[12Feb2025 14:02:08.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[12Feb2025 14:02:08.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[12Feb2025 14:02:08.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[12Feb2025 14:02:09.576] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[12Feb2025 14:02:09.576] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[12Feb2025 14:02:11.186] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[12Feb2025 14:02:11.191] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[12Feb2025 14:02:11.213] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class me/shedaniel/rei/api/client/plugins/REIClientPlugin for invalid dist DEDICATED_SERVER
-[12Feb2025 14:02:11.213] [modloading-worker-0/WARN] [REI/]: Plugin com.tiviacz.travelersbackpack.compat.rei.ReiCompat is attempting to load on the server, but is not compatible with the server. The mod should declare the environments it is compatible with in the @me.shedaniel.rei.forge.REIPluginCommon annotation.
-[12Feb2025 14:02:11.263] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[12Feb2025 14:02:11.276] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
-[12Feb2025 14:02:11.276] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
-[12Feb2025 14:02:11.291] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[12Feb2025 14:02:11.292] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[12Feb2025 14:02:11.300] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class me/shedaniel/rei/api/client/plugins/REIClientPlugin for invalid dist DEDICATED_SERVER
-[12Feb2025 14:02:11.306] [modloading-worker-0/WARN] [REI/]: Plugin com.tiviacz.travelersbackpack.compat.rei.ReiCompat is attempting to load on the server, but is not compatible with the server. The mod should declare the environments it is compatible with in the @me.shedaniel.rei.forge.REIPluginCommon annotation.
-[12Feb2025 14:02:11.325] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[12Feb2025 14:02:11.335] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
-[12Feb2025 14:02:11.341] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[12Feb2025 14:02:11.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[12Feb2025 14:02:11.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
-[12Feb2025 14:02:11.347] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[12Feb2025 14:02:11.350] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
-[12Feb2025 14:02:11.365] [modloading-worker-0/INFO] [Apugli/]: Apugli 2.10.2 has initialized. Powering up your powered up game.
-[12Feb2025 14:02:12.365] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/appleskin-client.toml is not correct. Correcting
-[12Feb2025 14:02:12.365] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Feb2025 14:02:12.365] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to its default, true. 
-[12Feb2025 14:02:12.365] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to its default, true. 
-[12Feb2025 14:02:12.366] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlayWhenOffhand was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodHealthHudOverlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showVanillaAnimationsOverlay was corrected from null to its default, true. 
-[12Feb2025 14:02:12.367] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maxHudOverlayFlashAlpha was corrected from null to its default, 0.65. 
-[12Feb2025 14:02:12.385] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/lootr-common.toml is not correct. Correcting
-[12Feb2025 14:02:12.385] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key randomise_seed was corrected from null to its default, true. 
-[12Feb2025 14:02:12.385] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key max_age was corrected from null to its default, 18000. 
-[12Feb2025 14:02:12.385] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable was corrected from null to its default, false. 
-[12Feb2025 14:02:12.386] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key convert_mineshafts was corrected from null to its default, true. 
-[12Feb2025 14:02:12.391] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key convert_elytras was corrected from null to its default, true. 
-[12Feb2025 14:02:12.392] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key convert_wooden_chests was corrected from null to its default, true. 
-[12Feb2025 14:02:12.392] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key convert_trapped_chests was corrected from null to its default, true. 
-[12Feb2025 14:02:12.393] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key report_unresolved_tables was corrected from null to its default, false. 
-[12Feb2025 14:02:12.393] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key additional_chests was corrected from null to its default, []. 
-[12Feb2025 14:02:12.394] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key additional_trapped_chests was corrected from null to its default, []. 
-[12Feb2025 14:02:12.401] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimension_whitelist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.403] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimension_blacklist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.404] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modid_dimension_blacklist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.405] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modid_dimension_whitelist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.407] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot_table_blacklist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.408] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot_modid_blacklist was corrected from null to its default, []. 
-[12Feb2025 14:02:12.409] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_break was corrected from null to its default, false. 
-[12Feb2025 14:02:12.411] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_break was corrected from null to its default, false. 
-[12Feb2025 14:02:12.413] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key check_world_border was corrected from null to its default, false. 
-[12Feb2025 14:02:12.416] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_fake_player_break was corrected from null to its default, false. 
-[12Feb2025 14:02:12.419] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power_comparators was corrected from null to its default, true. 
-[12Feb2025 14:02:12.420] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trapped_custom was corrected from null to its default, false. 
-[12Feb2025 14:02:12.424] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blast_resistant was corrected from null to its default, false. 
-[12Feb2025 14:02:12.426] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blast_immune was corrected from null to its default, false. 
-[12Feb2025 14:02:12.427] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_notifications was corrected from null to its default, false. 
-[12Feb2025 14:02:12.430] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key notification_delay was corrected from null to its default, 600. 
-[12Feb2025 14:02:12.431] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_message_styles was corrected from null to its default, false. 
-[12Feb2025 14:02:12.435] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_value was corrected from null to its default, 6000. 
-[12Feb2025 14:02:12.437] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_loot_tables was corrected from null to its default, []. 
-[12Feb2025 14:02:12.438] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_modids was corrected from null to its default, []. 
-[12Feb2025 14:02:12.441] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_dimensions was corrected from null to its default, []. 
-[12Feb2025 14:02:12.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_structures was corrected from null to its default, []. 
-[12Feb2025 14:02:12.447] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decay_all was corrected from null to its default, false. 
-[12Feb2025 14:02:12.449] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_value was corrected from null to its default, 24000. 
-[12Feb2025 14:02:12.452] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_loot_tables was corrected from null to its default, []. 
-[12Feb2025 14:02:12.454] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_modids was corrected from null to its default, []. 
-[12Feb2025 14:02:12.457] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_dimensions was corrected from null to its default, []. 
-[12Feb2025 14:02:12.460] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_structures was corrected from null to its default, []. 
-[12Feb2025 14:02:12.463] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key refresh_all was corrected from null to its default, false. 
-[12Feb2025 14:02:12.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor1/servidor_minecraft/config/lootr-client.toml is not correct. Correcting
-[12Feb2025 14:02:12.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_textures was corrected from null to its default, false. 
-[12Feb2025 14:02:12.473] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key old_textures was corrected from null to its default, false. 
-[12Feb2025 14:02:12.635] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[12Feb2025 14:02:12.636] [modloading-worker-0/INFO] [Medieval Origins Revival/]: Loading Medieval Origins
-[12Feb2025 14:02:12.688] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
-[12Feb2025 14:02:12.821] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID e840a4ea-6993-43c8-94b2-f1acb73df449
-[12Feb2025 14:02:12.825] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-02-12_14.02.12-fml.txt
-[12Feb2025 14:02:12.861] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 783f52f4-3104-44a1-911a-7e0c10eb9f95
-[12Feb2025 14:02:12.864] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[12Feb2025 14:04:05.536] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
+[12Feb2025 14:04:05.932] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
+[12Feb2025 14:04:06.061] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
+[12Feb2025 14:04:06.092] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.91.
+[12Feb2025 14:04:06.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[12Feb2025 14:04:07.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[12Feb2025 14:04:07.160] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
+[12Feb2025 14:04:07.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[12Feb2025 14:04:07.467] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[12Feb2025 14:04:07.469] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[12Feb2025 14:04:07.471] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[12Feb2025 14:04:07.476] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[12Feb2025 14:04:07.477] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[12Feb2025 14:04:07.478] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[12Feb2025 14:04:08.071] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Feb2025 14:04:08.072] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Feb2025 14:04:09.631] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[12Feb2025 14:04:09.632] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[12Feb2025 14:04:09.652] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class me/shedaniel/rei/api/client/plugins/REIClientPlugin for invalid dist DEDICATED_SERVER
+[12Feb2025 14:04:09.653] [modloading-worker-0/WARN] [REI/]: Plugin com.tiviacz.travelersbackpack.compat.rei.ReiCompat is attempting to load on the server, but is not compatible with the server. The mod should declare the environments it is compatible with in the @me.shedaniel.rei.forge.REIPluginCommon annotation.
+[12Feb2025 14:04:09.693] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[12Feb2025 14:04:09.695] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[12Feb2025 14:04:09.695] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[12Feb2025 14:04:09.697] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[12Feb2025 14:04:09.697] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[12Feb2025 14:04:09.702] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class me/shedaniel/rei/api/client/plugins/REIClientPlugin for invalid dist DEDICATED_SERVER
+[12Feb2025 14:04:09.707] [modloading-worker-0/WARN] [REI/]: Plugin com.tiviacz.travelersbackpack.compat.rei.ReiCompat is attempting to load on the server, but is not compatible with the server. The mod should declare the environments it is compatible with in the @me.shedaniel.rei.forge.REIPluginCommon annotation.
+[12Feb2025 14:04:09.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[12Feb2025 14:04:09.719] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[12Feb2025 14:04:09.721] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[12Feb2025 14:04:09.724] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[12Feb2025 14:04:09.725] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[12Feb2025 14:04:09.725] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[12Feb2025 14:04:09.728] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
+[12Feb2025 14:04:09.733] [modloading-worker-0/INFO] [Apugli/]: Apugli 2.10.2 has initialized. Powering up your powered up game.
+[12Feb2025 14:04:10.774] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[12Feb2025 14:04:10.785] [modloading-worker-0/INFO] [Medieval Origins Revival/]: Loading Medieval Origins
+[12Feb2025 14:04:10.858] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[12Feb2025 14:04:10.965] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1873b00e-87d4-4ef6-affc-dc831c74480c
+[12Feb2025 14:04:10.965] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-02-12_14.04.10-fml.txt
+[12Feb2025 14:04:10.985] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 8d6e7cf0-5ebb-4603-991f-557ecc803a81
+[12Feb2025 14:04:10.999] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
 	ClickThrough Plus (clickthrough) has failed to load correctly
 §7java.lang.ExceptionInInitializerError: null
